@@ -50,14 +50,14 @@ class app extends React.Component {
        <center><h1 className="text-secondary">pass your information for sign in or login</h1></center>
        <form onSubmit={this.submithandler}>
          <div ><center>
-            <input className="text-primary" type="text" name="name" value={name} onChange={this.changehandler} />
+            <input className="text-primary" type="text" name="name" value={name} onChange={this.changehandler} placeholder="your name" />
             </center>
          </div><br/>
          <div><center>
-           <input className="text-primary"  type="text" name="mob" value={mob} onChange={this.changehandler}/></center>
+           <input className="text-primary"  type="text" name="mob" value={mob} onChange={this.changehandler} placeholder="your mob no"/></center>
          </div><br/>
          <div><center>
-           <input className="text-primary" type="text" name="email" value={email} onChange={this.changehandler}/></center>
+           <input className="text-primary" type="text" name="email" value={email} onChange={this.changehandler} placeholder="your email"/></center>
          </div><br/><center>
          <button type="submit" className="btn btn-lg btn-dark">sign in</button></center>
        </form>
