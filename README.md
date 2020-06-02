@@ -1,5 +1,5 @@
 # onlinereservationportal
-make sure you have install node
+make sure you have install node and mongo db locally or change the url given in index.js file in backendforcust
 
 FOR FRONTEND
 
