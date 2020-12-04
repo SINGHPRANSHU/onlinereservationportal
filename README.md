@@ -22,29 +22,29 @@ There are a few ways to get your files on to the server, I would suggest using G
 
 ## FOR FRONTEND
 
-RUN
+#### RUN these commands in terminal
 
-cd my-app
+1. cd my-app
 
-npm install
+2. npm install
 
 and
 
-npm start
+3. npm start
 
 listening in port 3000...
 
 
-FOR BACKEND
+## FOR BACKEND
 
-RUN
+#### RUN these commands in terminal
 
-cd backendforcust
+1. cd backendforcust
 
-npm install
+2. npm install
 
 and 
 
-npm start
+3. npm start
 
 listening in port 5000...
